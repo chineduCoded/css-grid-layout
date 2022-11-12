@@ -1,14 +1,18 @@
-import { Dashboard } from "./layouts/dashboard";
+import SignIn from "./components/sign-in/signin";
+// import { Dashboard } from "./layouts/dashboard";
 
 function App() {
+  // const isLoggedIn = true;
   return (
     <>
-      <Dashboard>
+
+      <SignIn />
+      {/* <Dashboard>
         <div>
           <h1>Main content goes here</h1>
           <p>Let's put some text here</p>
         </div>
-      </Dashboard>
+      </Dashboard> */}
     </>
   );
 }
